@@ -15,6 +15,9 @@ public class DealsPage {
 	@FindBy(xpath="//label[contains(text(),'Deal stage')]/../div")
 	public WebElement ddDealStage;
 	
+	@FindBy(xpath="//label[contains(text(),'Deal owner')]/../div")
+	public WebElement ddDealOwner;
+	
 	
 	
 	
